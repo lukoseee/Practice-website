@@ -1,0 +1,91 @@
+.menu-bar{
+    z-index: 120;
+    font-family: helvetica;
+    background-color: rgba(117,85,64);
+    width: 100%;
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style:none;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;   
+}
+.menu-bar ul li{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+   
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: beige;
+
+}
+.menu-bar ul li:hover{
+    border-radius: 3px;
+    background: rgb(156, 62, 24);
+
+}
+.menu-bar .fa-solid{
+    margin-left: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.sub-menu-2{
+    display: none;
+}
+.sub-menu-3{
+    display: none;
+}
+ .menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position: absolute;
+    background-color: rgb(117,85,64);
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display:block;
+    margin-left: -20px;
+}
+.menu-bar ul li:hover .sub-menu-2{
+    display:block;
+    position: absolute;
+    background-color: rgb(117,85,64);
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul{
+    display:block;
+    margin-left: -20px;
+}
+.menu-bar ul li:hover .sub-menu-3{
+    display:block;
+    position: absolute;
+    background-color: rgb(117,85,64);
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul{
+    display:block;
+    margin-left: -20px;
+}
+
+header{
+    text-align: center;
+    line-height: 0.2;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/beige-abstract-wallpaper-background-image_53876-102527.jpg?w=2000");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+    font-family: Helvetica;
+    color: rgb(117,85,64)
+}

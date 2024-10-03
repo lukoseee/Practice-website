@@ -1,0 +1,63 @@
+.movie-info{
+    display:flex;
+    width:50%;
+    align-self: center;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 228px;
+    height: 341px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: black;
+}
+.movie-info1{
+    width: 100%;
+}
+.movie-info2{
+    display: flex;
+}
+.poster-title{
+    
+    width:100px;
+    height: 50px;
+    font-size: 40px;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 50px;
+    font-weight: 1000;
+    
+}
+.poster-title p{
+    padding: 0%;
+    margin: 0%;
+}
+.poster-year{
+    
+    height:50px;
+}
+.poster-year p{
+    margin-top: 65%;    
+}
+.poster-director{
+   
+    width:auto;
+    height: 50px;
+    margin-left: 5px;
+}
+.poster-director p{
+    margin-top: 11%;    
+}
+
+.tag-line{
+    font-size: 15px;
+    margin-left: 50px;
+    width: 300px;
+    height: 50px;
+}
+.synopsis{
+    
+    margin-left: 50px;
+}

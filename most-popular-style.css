@@ -1,0 +1,68 @@
+
+h3{
+    cursor: default;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Helvetica;
+    opacity: 0.4;
+}
+
+.categories{
+    font-family: helvetica;
+    display: grid;
+    grid-template-columns: 150px 450px 250px; 
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+
+.rating{
+    font-weight: bold;
+    color: rgb(117,85,64);
+    font-size: 20px;
+    padding:0%;
+    margin:0%;
+}
+.rank{
+    float: left;
+    font-weight: bold;
+    color: rgb(117,85,64);
+    font-size: 20px;    
+}
+
+.description{
+    font-weight: bold;
+    color: rgb(117,85,64);
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.rating1{
+    text-align: center;
+}
+
+.movie5{
+    width: 100px; 
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.movie5 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: blue;
+}
+
+.img-title-small{
+    font-size: small;
+    font-weight: bold;
+}
+.description5{
+    margin: auto;
+}

@@ -1,0 +1,342 @@
+header{
+    text-align: center;
+    line-height: 0.2;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/beige-abstract-wallpaper-background-image_53876-102527.jpg?w=2000");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3{
+    cursor: default;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Helvetica;
+    opacity: 0.4;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Helvetica;
+    color: rgb(117,85,64)
+}
+.menu-bar{
+    z-index: 120;
+    font-family: helvetica;
+    background-color: rgba(117,85,64);
+    width: 100%;
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style:none;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;   
+}
+.menu-bar ul li{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+   
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: beige;
+
+}
+.menu-bar ul li:hover{
+    border-radius: 3px;
+    background: rgb(156, 62, 24);
+
+}
+.menu-bar .fa-solid{
+    margin-left: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.sub-menu-2{
+    display: none;
+}
+.sub-menu-3{
+    display: none;
+}
+ .menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position: absolute;
+    background-color: rgb(117,85,64);
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display:block;
+    margin-left: -20px;
+}
+.menu-bar ul li:hover .sub-menu-2{
+    display:block;
+    position: absolute;
+    background-color: rgb(117,85,64);
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul{
+    display:block;
+    margin-left: -20px;
+}
+.menu-bar ul li:hover .sub-menu-3{
+    display:block;
+    position: absolute;
+    background-color: rgb(117,85,64);
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul{
+    display:block;
+    margin-left: -20px;
+}
+.trending{
+    font-family: Helvetica;
+    color: rgb(117,85,64)
+}
+
+.headimgs {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.headimgs img{
+    border: 1px solid;
+    border-color: blue;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.container{
+    position:relative;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    
+}
+.image-overlay{
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: beige;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: helvetica;
+}
+.image-overlay:hover{
+    opacity: 1;
+
+}
+.img-title{
+    font-size: large;
+    font-weight: bold;
+}
+.img-description{
+    font-weight: 200;
+}
+.break{
+    font-family: Helvetica;
+    color: rgb(117,85,64)
+    
+
+}
+.break p{
+    font-weight: 600;
+}
+
+.uses{
+    align-items: center;
+    display:flex; 
+    justify-content: center; 
+}
+
+.uses div{
+    background-color: rgb(117,85,64);
+    margin-left: 2.5px;
+    margin-bottom: 1.25px;
+    border-radius: 5px 5px 5px 5px;
+    height:200px;
+    width: 400px;
+ }
+ .uses div:hover{
+    background-color:rgb(156, 62, 24);
+ }
+.uses p{
+    text-align: center;
+    font-size: 30px;    
+    font-family: Helvetica;
+    color: beige;
+ 
+}
+.uses .fa-solid{
+    margin-right: 10px;
+}
+.p1{
+    display:flex;
+
+}
+.p1 p{
+    margin: auto;
+}
+.p2{
+    display:flex;
+
+}
+.p2 p{
+    margin: auto;
+}
+.p3{
+    display:flex;
+
+}
+.p3 p{
+    margin: auto;
+}
+
+ .uses2{
+    display:flex; 
+    justify-content: center; 
+}
+.uses2 div{
+    background-color: rgb(117,85,64);
+    margin-left: 2.5px;
+    margin-top: 1.25px;
+    border-radius: 5px 5px 5px 5px;
+    height:200px;
+    width: 400px;
+}
+.uses2 div:hover{
+    background-color:rgb(156, 62, 24);
+}
+.uses2 p{
+    text-align: center;
+    font-size: 30px;    
+    font-family: Helvetica;
+    color: beige;
+}
+.uses2 .fa-solid{
+    margin-right:10px;
+}
+.p4{
+    display:flex;
+
+}
+.p4 p{
+    margin: auto;
+}
+.p5{
+    display:flex;
+
+}
+.p5 p{
+    margin: auto;
+}
+.p6{
+    display:flex;
+
+}
+.p6 p{
+    margin: auto;
+}
+footer{
+    background-color: rgb(117,85,64);
+    width: 100%;   
+    color: beige;
+    font-family: Helvetica;
+}
+.info h4{
+    text-align: center;
+    
+}
+footer h4{
+    text-align: center;
+}
+.inputs{
+    text-align: center;
+}
+
+.button{
+    color:beige;
+    padding:0%;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(156, 62, 24);
+    border: 0px solid;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(56, 47, 47);
+}
+.ad{
+    line-height: 0.2;
+    text-align: center;
+    font-family: helvetica;
+}
+
+.ad h2{
+    font-size: 40px;
+    color: rgb(117,85,64);
+}
+
+.ad p{
+    font-size: 18px;
+    color: rgb(56, 47, 47)
+}
+
+.reviews{
+    font-family: Helvetica;
+    
+}
+.reviews h2{
+    color: rgb(117,85,64)
+}
+.reviews h4{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.reviews h5{
+    font-size: 15px;
+}
+.reviews p{
+    color: beige;
+    font-size:20px;
+
+}
+.film1{
+    justify-content: center;
+    display:flex;
+}
+.f1item1 img{
+    border: 1px solid;
+    border-color: blue;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.f1item2{
+    padding: 3px;
+    background-color: rgb(117,85,64);
+    height: 240px;
+    margin-left: 2.5px;
+    width: 50%;  
+    border-radius: 5px 5px 5px 5px;  
+}
+.f1item2 .fa-solid{
+    margin-left: 20px;
+    margin-right: 20px;
+}
